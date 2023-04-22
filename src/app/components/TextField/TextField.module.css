@@ -1,0 +1,20 @@
+.textfield {
+    display: flex;
+    flex-direction: column;
+    width: -webkit-fill-available;
+}
+
+.textfield input {
+    padding: 10px;
+    border-radius: 5px;
+    border:1px solid #a0a0a0;
+}
+
+.textfield label {
+    position: relative;
+    width: fit-content;
+    padding: 2px;
+    top: 10px;
+    left: 10px;
+    background-color: #fff;
+}
